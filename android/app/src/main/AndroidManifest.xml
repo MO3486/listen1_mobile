@@ -15,6 +15,7 @@
       android:theme="@style/AppTheme">
       <!-- https://stackoverflow.com/questions/39657029/react-native-android-several-apps-instances-running-at-the-same-time-as-result -->
       <activity
+        android:screenOrientation="portrait"
         android:name=".MainActivity"
         android:label="@string/app_name"
         android:launchMode="singleInstance"
